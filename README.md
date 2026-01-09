@@ -1,9 +1,9 @@
 # teamwork
 
 ## Workflow
-
+<pre>
 START<br>
-&nbsp;&nbsp;&nbsp;&nbsp; |<br>
+  |<br>
   v<br>
 [Fork Repo]<br>
   |<br>
@@ -33,9 +33,9 @@ Create Pull Request<br>
   |<br>
   v<br>
 DONE 🎉<br>
-
+</pre>
 ## When Conflicts Happen
-
+<pre>
 Two PRs exist without each other's changes<br>
         |<br>
         v<br>
@@ -57,3 +57,4 @@ Push branch again<br>
         |<br>
         v<br>
 Update PR<br>
+  </pre>
