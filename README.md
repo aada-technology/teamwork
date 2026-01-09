@@ -1,1 +1,57 @@
 # teamwork
+
+## Workflow
+START
+  |
+  v
+[Fork Repo]
+  |
+  v
+[Create Branch]
+  |
+  v
+Make Changes
+  |
+  v
+Switch to Main & Update
+  git checkout main
+  git pull origin main
+  |
+  v
+Return to Branch & Merge Main
+  git checkout your-branch
+  git merge main
+  |
+  v
+Push Branch
+  git push origin your-branch
+  |
+  v
+Create Pull Request
+  (Reference issues in description)
+  |
+  v
+DONE 🎉
+
+## When Conflicts Happen
+Two PRs exist without each other's changes
+        |
+        v
+One PR is merged
+        |
+        v
+Other person runs:
+  git fetch origin
+  git merge origin/main
+        |
+        v
+Resolve conflicts in VS Code
+        |
+        v
+Commit changes
+        |
+        v
+Push branch again
+        |
+        v
+Update PR
