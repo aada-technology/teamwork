@@ -11,15 +11,15 @@ START
 [Create Branch]
   |
   v
-Make Changes
+Make Changes, stage and commit
   |
   v
-Switch to Main & Update
+Switch to Main & Update <---- Makes sure you have all the most recent changes from AADA
   git checkout main
   git pull origin main
   |
   v
-Return to Branch & Merge Main
+Return to Branch & Merge Main 
   git checkout your-branch
   git merge main
   |
