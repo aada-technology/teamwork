@@ -1,58 +1,59 @@
 # teamwork
 
 ## Workflow
-START
-  |
-  v
-[Fork Repo]
-  |
-  v
-[Create Branch]
-  |
-  v
-Make Changes
-  |
-  v
-Switch to Main & Update
-  git checkout main
-  git pull origin main
-  |
-  v
-Return to Branch & Merge Main
-  git checkout your-branch
-  git merge main
-  |
-  v
-Push Branch
-  git push origin your-branch
-  |
-  v
-Create Pull Request
-  (Reference issues in description)
-  |
-  v
-DONE 🎉
 
+START<br>
+  |<br>
+  v<br>
+[Fork Repo]<br>
+  |<br>
+  v<br>
+[Create Branch]<br>
+  |<br>
+  v<br>
+Make Changes<br>
+  |<br>
+  v<br>
+Switch to Main & Update<br>
+  git checkout main<br>
+  git pull origin main<br>
+  |<br>
+  v<br>
+Return to Branch & Merge Main<br>
+  git checkout your-branch<br>
+  git merge main<br>
+  |<br>
+  v<br>
+Push Branch<br>
+  git push origin your-branch<br>
+  |<br>
+  v<br>
+Create Pull Request<br>
+  (Reference issues in description)<br>
+  |<br>
+  v<br>
+DONE 🎉<br>
 
 ## When Conflicts Happen
-Two PRs exist without each other's changes
-        |
-        v
-One PR is merged
-        |
-        v
-Other person runs:
-  git fetch origin
-  git merge origin/main
-        |
-        v
-Resolve conflicts in VS Code
-        |
-        v
-Commit changes
-        |
-        v
-Push branch again
-        |
-        v
-Update PR
+
+Two PRs exist without each other's changes<br>
+        |<br>
+        v<br>
+One PR is merged<br>
+        |<br>
+        v<br>
+Other person runs:<br>
+  git fetch origin<br>
+  git merge origin/main<br>
+        |<br>
+        v<br>
+Resolve conflicts in VS Code<br>
+        |<br>
+        v<br>
+Commit changes<br>
+        |<br>
+        v<br>
+Push branch again<br>
+        |<br>
+        v<br>
+Update PR<br>
