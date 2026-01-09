@@ -8,15 +8,16 @@ START
 [Fork Repo]
   |
   v
+    Switch to Main & Update <---- Makes sure you have all the most recent changes from AADA
+  git checkout main
+  git pull origin main
+  |
+  v
 [Create Branch]
   |
   v
 Make Changes, stage and commit
-  |
-  v
-Switch to Main & Update <---- Makes sure you have all the most recent changes from AADA
-  git checkout main
-  git pull origin main
+
   |
   v
 Return to Branch & Merge Main 
